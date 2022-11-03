@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Contact</title>
+        <link rel="shortcut icon" type="img/ico" href="img/favicon.ico"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="https://kit.fontawesome.com/c20989b72b.js" crossorigin="anonymous"></script>
+        <style>
+            .container{
+                width:1000px;
+                margin:0 auto;
+                border: 1.5px solid black; 
+                padding: 8px;
+            }
+            .encadrement{
+                border: 1.5px solid black;
+                padding:5px;
+            }
+            .champdesaisi{
+                padding:10px;
+            }
+            .tailleinput{
+                width: 150px;
+                height: 12px;
+            }
+            input::placeholder{
+                
+                font-size: 10px;
+            }            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header class="encadrement">
+                <h1><a href="index.html" title="retour a l'accueil">Formation Développeur Web - ISFAC 2022-2023</h1></a>
+                <a href="index.html" title="page d'accueil">Presentation</a>
+                <a href="cursus.html" title="programme de formation">Cursus de formation</a>
+                <a href="equipe.html" title="equipe 2022">Equipe</a>
+                <a href="contact.html" title="formulaire de contact">Contact</a>
+            </header>
+            <section class="encadrement">
+                <h3>Contact</h3>
+                <form class="formulaire" action="" method="">
+                    <div class="champdesaisi">
+                        <label for="nom">Votre nom :</label>
+                        <input type="text" name="nom" id="nom" placeholder="Nom" class="tailleinput"/>
+                    </div>
+                    <div class="champdesaisi">
+                        <label for="prenom">Votre prénom :</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Prénom" class="tailleinput"/>
+                    </div>
+                    <div class="champdesaisi">
+                        <label for="email">Votre email :</label>
+                        <input type="email" name="email" id="email" placeholder="Email" class="tailleinput"/>
+                    </div>
+                    <div class="champdesaisi">
+                        <label for="message">Votre message :<br></label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <div class="champdesaisi">
+                        <input type="submit" name="valider" id="valider" style="background-color: white;"/>
+                    </div>
+                 </form>
+                </section>
+            <footer class="encadrement">
+                <h3>Contact</h3>
+                <p><strong>Adresse : 17 Rue Albin Haller, 86000 POITIERS</strong></p>
+                <p><strong>Telephone 05 49 60 39 30</strong></p>
+                <a href = "https://www.facebook.com/groups/html5.web" title="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href = "https://twitter.com/html5?lang=fr" title="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href = "https://www.youtube.com/watch?v=ieSegwJBIlw" title="youtube"><i class="fa-brands fa-youtube"></i></a>
+                <a href = "https://www.pinterest.fr/cvander/html5/" title="pinterest"><i class="fa-brands fa-pinterest"></i></a>
+            </footer>
+        </div>
+    </body>
+</html>
